@@ -1,73 +1,149 @@
-# Welcome to your Lovable project
+# BioVital - Life Sciences Asset Consulting Website
 
-## Project info
+A modern, glassmorphic corporate website for BioVital, a life sciences asset consulting firm specializing in biotechnology, pharmaceuticals, and regulatory intelligence.
 
-**URL**: https://lovable.dev/projects/d9b5d65e-e15b-472b-8836-b422c11a9172
+## 🚀 Features
 
-## How can I edit this code?
+- **Glassmorphic Design System**: Futuristic corporate aesthetic with frosted glass effects
+- **Responsive Layout**: Mobile-first design with perfect desktop scaling
+- **4-Page Architecture**: Home, About, Solutions, Team & Contact
+- **Professional Team Profiles**: Nigerian professionals in business attire
+- **Interactive Elements**: Hover effects, animations, and smooth transitions
+- **SEO Optimized**: Comprehensive meta tags and semantic HTML structure
 
-There are several ways of editing your application.
+## 🎨 Design System
 
-**Use Lovable**
+### Color Palette
+- **Primary**: Neon Cyan (#00E5FF) 
+- **Secondary**: BioTech Purple (#7A00FF)
+- **Background**: Charcoal Steel (#0E0E12)
+- **Glass Cards**: White opacity with blur effects
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d9b5d65e-e15b-472b-8836-b422c11a9172) and start prompting.
+### Typography
+- **Headlines**: JetBrains Mono (Eurostile alternative)
+- **Body Text**: Inter (Roboto alternative)
+- **UI Elements**: Inter
 
-Changes made via Lovable will be committed automatically to this repo.
+### Components
+- Glassmorphic cards with neon borders
+- Gradient buttons with glow effects
+- Brutalist design elements
+- Smooth animations and transitions
 
-**Use your preferred IDE**
+## 📄 Page Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Home (`/`)
+- Hero section with DNA helix imagery
+- Company overview with mission statement
+- Key capabilities showcase (4 service cards)
+- Client testimonials preview
+- Performance metrics display
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### About Us (`/about`)
+- Company founding story and principles
+- Mission statement with strategic components
+- Vision elements in interactive cards
+- Core principles with icon grid (6 values)
 
-Follow these steps:
+### Solutions (`/solutions`)
+- Comprehensive service grid (6 consulting areas)
+- Technology stack showcase
+- 5-phase methodology timeline
+- Impact metrics and results
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Team & Contact (`/team-contact`)
+- Leadership team profiles (6 members)
+- Extended client testimonials (6 quotes)
+- Contact information and CTA section
+- Strategic consultation scheduling
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🏗️ Technical Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Framework**: Vite + React + TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: shadcn/ui (customized)
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+- **Package Manager**: npm
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📱 Responsive Design
+
+- **Desktop**: 12-column grid layout
+- **Tablet**: 8-column grid adaptation
+- **Mobile**: Single-column stack with drawer navigation
+- **Breakpoints**: Mobile-first approach with smooth scaling
+
+## 🎯 Content Strategy
+
+### Services Highlighted
+1. Drug Development Strategy
+2. Asset Valuation & Due Diligence
+3. Regulatory Strategy & Compliance
+4. Market Access & Commercialization
+5. Technology Transfer & Licensing
+6. Strategic Partnerships
+
+### Key Metrics
+- 150+ Assets Optimized
+- $2.5B+ Value Created
+- 40% Faster Regulatory Approvals
+- 98% Client Satisfaction
+
+### Team Leadership
+- Dr. Ashafa Sani Abdullahi (CEO)
+- Dr. Amina Hassan (Senior Director of Regulatory Affairs)
+- Dr. James Adebayo (VP Commercial Strategy)
+- Prof. David Okafor (Chief Medical Officer)
+- Dr. Chukwuma Ezike (Director of Technology & Analytics)
+- Dr. Ibrahim Mohammed (Director of Market Access)
+
+## 📞 Contact Information
+
+**Address**: 25 Danube Street, Maitama, Abuja, FCT, Nigeria  
+**Phone**: +234 803 084 8090  
+**Email**: info@biovital.com.ng  
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Customization
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The design system is fully customizable through:
+- `src/index.css` - Color variables and global styles
+- `tailwind.config.ts` - Tailwind configuration and custom utilities
+- `src/components/ui/` - Reusable UI components
 
-**Use GitHub Codespaces**
+## 📈 Performance Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Lazy loading for images
+- Optimized asset delivery
+- Smooth animations with CSS transforms
+- Responsive image sizing
+- Minimal bundle size with tree-shaking
 
-## What technologies are used for this project?
+## 🔍 SEO Features
 
-This project is built with:
+- Semantic HTML structure
+- Comprehensive meta tags
+- Proper heading hierarchy
+- Alt text for all images
+- Canonical URLs
+- Social media optimization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d9b5d65e-e15b-472b-8836-b422c11a9172) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Built with ❤️ for advancing life sciences through strategic excellence**
