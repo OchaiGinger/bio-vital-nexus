@@ -88,7 +88,7 @@ const TeamContact = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-backdrop py-20">
+    <div className="min-h-screen bg-background py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Team Section */}
@@ -188,35 +188,20 @@ const TeamContact = () => {
               <div className="space-y-8">
                 <div className="space-y-6">
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
                       <Phone className="w-6 h-6 text-foreground" />
                     </div>
-                    <div>
-                      <h3 className="font-eurostile font-semibold text-foreground">Phone</h3>
-                      <p className="font-roboto text-muted-foreground">+234 803 084 8090</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
+...
+                    <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
                       <MapPin className="w-6 h-6 text-foreground" />
                     </div>
-                    <div>
-                      <h3 className="font-eurostile font-semibold text-foreground">Address</h3>
-                      <p className="font-roboto text-muted-foreground">
-                        25 Danube Street, Maitama<br />
-                        Abuja, FCT, Nigeria
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
+...
+                    <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
                       <Mail className="w-6 h-6 text-foreground" />
                     </div>
                     <div>
                       <h3 className="font-eurostile font-semibold text-foreground">Email</h3>
-                      <p className="font-roboto text-muted-foreground">info@biovital.com.ng</p>
+                      <p className="font-roboto text-muted-foreground">tech@biovital.technology</p>
                     </div>
                   </div>
                 </div>

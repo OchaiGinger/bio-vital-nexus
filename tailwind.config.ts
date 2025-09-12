@@ -61,9 +61,9 @@ export default {
 				},
 			},
 			backgroundImage: {
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-glass': 'var(--gradient-glass)',
-				'gradient-backdrop': 'var(--gradient-backdrop)',
+				'solid-primary': 'hsl(var(--solid-primary))',
+				'solid-secondary': 'hsl(var(--solid-secondary))',
+				'solid-glass': 'hsl(var(--solid-glass))',
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',

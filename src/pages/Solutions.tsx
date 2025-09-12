@@ -82,7 +82,7 @@ const Solutions = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-backdrop py-20">
+    <div className="min-h-screen bg-background py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Consulting Services */}
@@ -100,7 +100,7 @@ const Solutions = () => {
             {consultingServices.map((service, index) => (
               <Card key={index} className="glass-card border border-card-border glow-hover group">
                 <CardContent className="p-6 space-y-4">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-float">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center group-hover:animate-float">
                     <service.icon className="w-6 h-6 text-foreground" />
                   </div>
                   <h3 className="font-eurostile text-xl font-semibold text-foreground">
@@ -138,7 +138,7 @@ const Solutions = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
               {technologyStack.map((tech, index) => (
                 <div key={index} className="text-center space-y-3 p-4 rounded-lg hover:bg-muted transition-colors">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto">
                     <tech.icon className="w-6 h-6 text-foreground" />
                   </div>
                   <h4 className="font-eurostile text-sm font-semibold text-foreground">
@@ -166,7 +166,7 @@ const Solutions = () => {
 
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-primary hidden md:block"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-primary hidden md:block"></div>
             
             <div className="space-y-12">
               {methodology.map((phase, index) => (
@@ -177,7 +177,7 @@ const Solutions = () => {
                       <Card className="glass-card border border-card-border glow-hover">
                         <CardContent className="p-6">
                           <div className="flex items-center space-x-4 mb-4">
-                            <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
+                            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                               <span className="font-eurostile font-bold text-foreground">{index + 1}</span>
                             </div>
                             <h3 className="font-eurostile text-xl font-bold text-foreground">

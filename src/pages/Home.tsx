@@ -147,7 +147,7 @@ const Home = () => {
             {capabilities.map((capability, index) => (
               <Card key={index} className="glass-card border border-card-border glow-hover group">
                 <CardContent className="p-6 space-y-4">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-float">
+                  <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center group-hover:animate-float">
                     <capability.icon className="w-6 h-6 text-foreground" />
                   </div>
                   <h3 className="font-eurostile text-lg font-semibold text-foreground">

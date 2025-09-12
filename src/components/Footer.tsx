@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import logo from "@/assets/biovital-logo.png";
 
 const Footer = () => {
   return (
@@ -7,8 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="font-eurostile text-2xl font-bold text-neon-cyan">
-              BIO<span className="text-neon-purple">VITAL</span>
+            <div className="flex items-center space-x-3">
+              <img src={logo} alt="BioVital Logo" className="h-8" />
+              <div className="font-eurostile text-2xl font-bold text-neon-cyan">
+                BIO<span className="text-neon-purple">VITAL</span>
+              </div>
             </div>
             <p className="text-muted-foreground font-roboto text-sm leading-relaxed">
               Advancing Life Sciences Asset Consulting Solutions
@@ -32,7 +36,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail size={16} className="text-primary" />
-                <span className="font-roboto">info@biovital.com.ng</span>
+                <span className="font-roboto">tech@biovital.technology</span>
               </div>
             </div>
           </div>

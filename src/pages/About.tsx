@@ -50,7 +50,7 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-backdrop py-20">
+    <div className="min-h-screen bg-background py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Intro Section */}
@@ -112,7 +112,7 @@ const About = () => {
                 <Card key={index} className="glass-card border border-card-border glow-hover">
                   <CardContent className="p-6">
                     <div className="flex items-center space-x-4">
-                      <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                      <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                         <span className="font-eurostile font-bold text-foreground">{index + 1}</span>
                       </div>
                       <span className="font-roboto text-foreground">{element}</span>
@@ -139,7 +139,7 @@ const About = () => {
             {principles.map((principle, index) => (
               <Card key={index} className="glass-brutal border-2 border-primary glow-hover group">
                 <CardContent className="p-8 text-center space-y-4">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-lg flex items-center justify-center mx-auto group-hover:animate-float">
+                  <div className="w-16 h-16 bg-primary rounded-lg flex items-center justify-center mx-auto group-hover:animate-float">
                     <principle.icon className="w-8 h-8 text-foreground" />
                   </div>
                   <h3 className="font-eurostile text-xl font-bold text-foreground">

@@ -16,7 +16,7 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         // Glassmorphic BioVital variants
-        "glass-primary": "bg-gradient-primary text-foreground font-eurostile font-semibold shadow-glow hover:shadow-glow-purple transition-all duration-300 border-0",
+        "glass-primary": "bg-primary text-primary-foreground font-eurostile font-semibold shadow-glow hover:shadow-glow-purple transition-all duration-300 border-0",
         "glass-secondary": "glass-card border border-card-border text-foreground font-roboto hover:shadow-glow glow-hover transition-all duration-300",
         "glass-brutal": "glass-brutal text-foreground font-eurostile font-bold hover:shadow-glow-purple transition-all duration-300",
         "neon-outline": "border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 glow-cyan"
