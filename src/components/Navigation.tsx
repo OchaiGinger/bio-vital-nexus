@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logo from "../assets/_B Logo Design.png";
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -23,7 +23,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={logo} alt="BioVital Logo" className="h-8" />
+            <img src="_B Logo Design.png" alt="BioVital Logo" className="h-8" />
             <div className="font-eurostile text-xl font-bold text-neon-cyan">
               BIO<span className="text-neon-purple">VITAL</span>
             </div>
