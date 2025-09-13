@@ -1,5 +1,4 @@
 import { MapPin, Phone, Mail } from "lucide-react";
-import logo from "@/assets/biovital-logo.png";
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img src={logo} alt="BioVital Logo" className="h-8" />
+              <img src="_B Logo Design.png" alt="BioVital Logo" className="h-8" />
               <div className="font-eurostile text-2xl font-bold text-neon-cyan">
                 BIO<span className="text-neon-purple">VITAL</span>
               </div>
