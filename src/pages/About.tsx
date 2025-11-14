@@ -3,49 +3,49 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   const missionComponents = [
-    "Accelerate breakthrough therapies from bench to bedside",
-    "Maximize asset value through strategic intelligence",
-    "Navigate regulatory complexities with expert guidance",
-    "Enable sustainable innovation in global markets"
+    "Accelerate breakthrough therapies with AI-powered intelligence",
+    "Maximize asset value through automated real-time analytics",
+    "Simplify regulatory compliance with intelligent automation",
+    "Enable data-driven innovation across global markets"
   ];
 
   const visionElements = [
-    "Leading the transformation of life sciences consulting",
-    "Bridging the gap between innovation and market success",
-    "Empowering biotech companies to save more lives",
-    "Setting new standards for strategic excellence"
+    "Leading the AI transformation of life sciences development",
+    "Democratizing access to enterprise-grade biotech intelligence",
+    "Empowering companies to accelerate life-saving therapies",
+    "Setting new standards for intelligent automation in pharma"
   ];
 
   const principles = [
     {
       icon: Shield,
-      title: "Scientific Rigor",
-      description: "Evidence-based methodologies rooted in clinical excellence"
+      title: "Data Security",
+      description: "Enterprise-grade security with SOC 2 compliance and encryption"
     },
     {
       icon: Lightbulb,
-      title: "Innovation Leadership",
-      description: "Pioneering new approaches to complex challenges"
+      title: "AI Innovation",
+      description: "Cutting-edge machine learning for predictive insights"
     },
     {
       icon: Target,
-      title: "Strategic Excellence",
-      description: "Precision-focused solutions for maximum impact"
+      title: "Precision Analytics",
+      description: "Real-time data processing for actionable intelligence"
     },
     {
       icon: Users,
-      title: "Collaborative Partnership",
-      description: "Deep integration with client teams and objectives"
+      title: "Seamless Integration",
+      description: "API-first architecture for existing workflow integration"
     },
     {
       icon: Heart,
-      title: "Ethical Practice",
-      description: "Unwavering commitment to integrity and transparency"
+      title: "Transparent Pricing",
+      description: "Clear SaaS pricing with no hidden fees"
     },
     {
       icon: Eye,
-      title: "Patient Focus",
-      description: "Every decision guided by improving patient outcomes"
+      title: "Patient Outcomes",
+      description: "Technology designed to accelerate life-saving treatments"
     }
   ];
 
@@ -56,16 +56,16 @@ const About = () => {
         {/* Intro Section */}
         <section className="text-center mb-20">
           <h1 className="font-eurostile text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Pioneering <span className="text-neon-cyan">Life Sciences</span> Asset Intelligence
+            <span className="text-neon-cyan">AI-Powered</span> Life Sciences Intelligence Platform
           </h1>
           <div className="glass-card p-12 max-w-4xl mx-auto">
             <p className="font-roboto text-lg text-muted-foreground leading-relaxed">
-              Founded on the principle that every breakthrough therapy deserves the optimal path to market, 
-              BioVital emerged from the convergence of world-class scientific expertise and strategic consulting excellence. 
-              We recognized that while innovation in biotechnology continues to accelerate, the translation of scientific 
-              breakthroughs into accessible therapies remains complex and inefficient. Our founding team of industry veterans, 
-              regulatory experts, and data scientists came together with a singular vision: to revolutionize how life sciences 
-              assets are developed, valued, and brought to market.
+              Founded on the principle that every breakthrough therapy deserves intelligent automation, 
+              BioVital emerged from the convergence of cutting-edge AI technology and deep biotech domain expertise. 
+              We recognized that while innovation in biotechnology continues to accelerate, development teams still rely on 
+              manual processes and fragmented data. Our founding team of AI engineers, data scientists, and pharma veterans 
+              came together with a singular vision: to build the first comprehensive AI platform that automates regulatory 
+              intelligence, asset valuation, and market analysis—delivering real-time insights that accelerate time-to-market.
             </p>
           </div>
         </section>
@@ -76,10 +76,10 @@ const About = () => {
             <div className="text-center mb-12">
               <Target className="w-16 h-16 text-primary mx-auto mb-6" />
               <h2 className="font-eurostile text-3xl font-bold text-foreground mb-4">
-                Mission: Accelerating Life-Changing Therapies to Market
+                Mission: Democratizing Life Sciences Intelligence
               </h2>
               <p className="font-roboto text-lg text-muted-foreground">
-                Our core purpose drives every strategic decision and client engagement
+                Empowering every biotech company with enterprise-grade AI intelligence
               </p>
             </div>
             

@@ -11,77 +11,77 @@ import drIbrahimMohammed from "@/assets/team/dr-ibrahim-mohammed.jpg";
 const TeamContact = () => {
   const teamMembers = [
     {
-      name: "Dr. Ashafa Sani Abdullahi",
+      name: "Friday Adagache",
       role: "Chief Executive Officer",
       image: drAshafaSaniAbdullahi,
-      description: "20+ years leading biotech strategy and regulatory affairs across global markets"
+      description: "Visionary tech leader driving AI-powered innovation in life sciences intelligence"
     },
     {
       name: "Dr. Amina Hassan",
-      role: "Senior Director of Regulatory Affairs",
+      role: "Chief Product Officer",
       image: drAminaHassan,
-      description: "Expert in FDA/EMA submissions with 50+ successful regulatory approvals"
+      description: "Product innovator with expertise in AI-driven regulatory automation and compliance platforms"
     },
     {
       name: "Dr. James Adebayo",
-      role: "VP Commercial Strategy",
+      role: "VP of Growth & Partnerships",
       image: drJamesAdebayo,
-      description: "Strategic leader in market access and commercial optimization for emerging markets"
+      description: "Growth strategist driving platform adoption and strategic partnerships with biotech leaders"
     },
     {
       name: "Prof. David Okafor",
-      role: "Chief Medical Officer",
+      role: "Chief Science Officer",
       image: profDavidOkafor,
-      description: "Clinical development expert with extensive experience in oncology and rare diseases"
+      description: "Clinical AI expert ensuring scientific rigor in platform algorithms and development intelligence"
     },
     {
       name: "Dr. Chukwuma Ezike",
-      role: "Director of Technology & Analytics",
+      role: "Chief Technology Officer",
       image: drChukwumaEzike,
-      description: "AI/ML specialist driving data-driven insights and predictive modeling platforms"
+      description: "AI/ML architect leading platform development and scalable cloud infrastructure"
     },
     {
       name: "Dr. Ibrahim Mohammed",
-      role: "Director of Market Access",
+      role: "VP of Data & Analytics",
       image: drIbrahimMohammed,
-      description: "Health economics and market access strategist for Sub-Saharan Africa"
+      description: "Data scientist specializing in market intelligence algorithms and predictive analytics"
     }
   ];
 
   const testimonials = [
     {
-      quote: "BioVital's regulatory strategy enabled us to achieve FDA breakthrough therapy designation 6 months ahead of schedule. Their expertise in navigating complex approval pathways is exceptional.",
+      quote: "BioVital's platform enabled us to achieve FDA breakthrough designation 6 months faster with automated regulatory tracking. The compliance dashboard is a game-changer.",
       author: "Prof. David Okafor",
       role: "CMO, NeuroPharma Solutions",
       image: profDavidOkafor
     },
     {
-      quote: "The commercial strategy insights provided by BioVital were instrumental in our $75M Series C funding. Their market intelligence gave investors complete confidence in our go-to-market approach.",
+      quote: "The AI-powered market intelligence was instrumental in our $75M Series C funding. Real-time analytics gave investors complete confidence in our projections.",
       author: "Dr. James Adebayo",
       role: "VP Commercial Strategy, BioCure Therapeutics",
       image: drJamesAdebayo
     },
     {
-      quote: "Working with BioVital transformed our asset valuation process. Their proprietary analytics helped us identify $200M in previously unrecognized value across our pipeline.",
+      quote: "BioVital's automated valuation engine transformed our pipeline analysis. The platform identified $200M in previously hidden value with predictive modeling.",
       author: "Dr. Amina Hassan",
       role: "Chief Development Officer, Precision Bio",
       image: drAminaHassan
     },
     {
-      quote: "BioVital's technology transfer expertise was crucial in structuring our partnership with global pharma. They secured terms that exceeded our expectations by 40%.",
+      quote: "The partnership intelligence module was crucial in structuring our pharma deal. AI-driven term matching exceeded our expectations by 40%.",
       author: "Dr. Chukwuma Ezike",
       role: "CTO, MedTech Innovations",
       image: drChukwumaEzike
     },
     {
-      quote: "The market access strategy developed by BioVital opened doors in 12 new markets, generating $150M in projected revenue. Their understanding of regional dynamics is unmatched.",
+      quote: "BioVital's market access analytics opened 12 new markets, generating $150M in projected revenue. The automated reporting saves our team 20 hours weekly.",
       author: "Dr. Ibrahim Mohammed",
       role: "VP Business Development, Global Health Ventures",
       image: drIbrahimMohammed
     },
     {
-      quote: "BioVital's due diligence process identified critical risks that saved our company from a costly strategic misstep. Their thoroughness and expertise are world-class.",
-      author: "Dr. Ashafa Sani Abdullahi",
+      quote: "BioVital's platform transformed our decision-making with real-time AI insights. The predictive risk scoring saved us from a $50M strategic misstep.",
+      author: "Friday Adagache",
       role: "CEO, African Therapeutics Consortium",
       image: drAshafaSaniAbdullahi
     }
@@ -176,10 +176,10 @@ const TeamContact = () => {
           <div className="glass-brutal border-2 border-primary p-12">
             <div className="text-center mb-12">
               <h2 className="font-eurostile text-3xl font-bold text-foreground mb-4">
-                Ready to <span className="text-neon-cyan">Accelerate</span> Your Assets?
+                Ready to <span className="text-neon-cyan">Transform</span> Your Development Process?
               </h2>
               <p className="font-roboto text-lg text-muted-foreground max-w-2xl mx-auto">
-                Advancing Life Sciences. Optimizing Assets. Transforming Outcomes.
+                AI-Powered Intelligence. Real-Time Analytics. Automated Workflows.
               </p>
             </div>
 
@@ -218,15 +218,15 @@ const TeamContact = () => {
               <div className="text-center lg:text-left">
                 <div className="space-y-6">
                   <h3 className="font-eurostile text-2xl font-bold text-foreground">
-                    Schedule a Strategic Consultation
+                    Start Your Free Trial Today
                   </h3>
                   <p className="font-roboto text-muted-foreground leading-relaxed">
-                    Discover how BioVital can accelerate your asset development, optimize regulatory pathways, 
-                    and unlock maximum market value. Our strategic consultation will provide actionable insights 
-                    tailored to your specific challenges and objectives.
+                    Experience the power of AI-driven biotech intelligence. Get instant access to our platform 
+                    with a 14-day free trial—no credit card required. See how automated regulatory tracking, 
+                    real-time analytics, and intelligent workflows can transform your development process.
                   </p>
                   <Button variant="glass-primary" size="lg" className="group">
-                    Schedule Consultation
+                    Start Free Trial
                     <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>

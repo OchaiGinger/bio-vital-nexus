@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground font-roboto text-sm leading-relaxed">
-              Advancing Life Sciences Asset Consulting Solutions
+              AI-Powered Life Sciences Intelligence Platform
             </p>
           </div>
 
@@ -42,19 +42,19 @@ const Footer = () => {
 
           {/* Services */}
           <div className="space-y-4">
-            <h3 className="font-eurostile font-semibold text-foreground">Core Services</h3>
+            <h3 className="font-eurostile font-semibold text-foreground">Platform Features</h3>
             <ul className="space-y-2 text-sm text-muted-foreground font-roboto">
-              <li>Drug Development Strategy</li>
-              <li>Asset Valuation & Due Diligence</li>
-              <li>Regulatory Strategy & Compliance</li>
-              <li>Market Access & Commercialization</li>
+              <li>Development Intelligence</li>
+              <li>Automated Asset Valuation</li>
+              <li>Regulatory Intelligence Hub</li>
+              <li>Market Access Analytics</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-card-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm font-roboto">
-            © 2025 BioVital. All rights reserved. Transforming Life Sciences Through Strategic Excellence.
+            © 2025 BioVital. All rights reserved. AI-Powered Life Sciences Intelligence.
           </p>
         </div>
       </div>
