@@ -9,35 +9,35 @@ const Home = () => {
   const capabilities = [
     {
       icon: TrendingUp,
-      title: "Drug Development Strategy",
-      description: "Accelerate your pipeline with data-driven strategic guidance from preclinical through market launch"
+      title: "AI-Powered Development Intelligence",
+      description: "Accelerate your pipeline with predictive analytics and real-time development insights from preclinical through launch"
     },
     {
       icon: Award,
-      title: "Asset Valuation & Due Diligence",
-      description: "Comprehensive asset assessment leveraging advanced analytics and regulatory intelligence"
+      title: "Automated Asset Valuation",
+      description: "Comprehensive asset assessment powered by machine learning and real-time regulatory intelligence"
     },
     {
       icon: CheckCircle,
-      title: "Regulatory Strategy & Compliance",
-      description: "Navigate complex regulatory landscapes with expert guidance and proven methodologies"
+      title: "Regulatory Intelligence Platform",
+      description: "Navigate regulatory landscapes with AI-driven compliance tracking and automated submission workflows"
     },
     {
       icon: Globe,
-      title: "Market Access & Commercialization",
-      description: "Optimize market entry strategies and maximize commercial potential across global markets"
+      title: "Market Access Analytics",
+      description: "Optimize market strategies with predictive modeling and real-time commercial intelligence across global markets"
     }
   ];
 
   const testimonials = [
     {
-      quote: "BioVital's strategic insights transformed our drug development timeline, reducing regulatory approval by 40% while maintaining the highest quality standards.",
+      quote: "BioVital's platform transformed our development process with AI-driven insights, reducing our regulatory timeline by 40% with automated compliance tracking.",
       author: "Prof. David Okafor",
       role: "Chief Medical Officer, NeuroPharma Solutions",
       image: profDavidOkafor
     },
     {
-      quote: "Their asset valuation expertise was instrumental in securing $50M in Series B funding. The team's deep biotech knowledge is unmatched.",
+      quote: "The automated valuation platform was instrumental in securing $50M in Series B funding. Real-time market intelligence gave investors complete confidence.",
       author: "Dr. James Adebayo",
       role: "VP Commercial Strategy, BioCure Therapeutics",
       image: drJamesAdebayo
@@ -64,25 +64,25 @@ const Home = () => {
                 <h1 className="font-eurostile text-4xl md:text-6xl font-bold leading-tight">
                   <span className="text-neon-cyan">BIOVITAL</span>
                   <br />
-                  <span className="text-foreground">Advancing Life Sciences</span>
+                  <span className="text-foreground">AI-Powered</span>
                   <br />
-                  <span className="text-neon-purple">Through Strategic</span>
+                  <span className="text-neon-purple">Life Sciences</span>
                   <br />
-                  <span className="text-foreground">Asset Consulting</span>
+                  <span className="text-foreground">Intelligence Platform</span>
                 </h1>
                 
                 <p className="font-roboto text-xl text-muted-foreground leading-relaxed max-w-lg">
-                  Transforming Biotech & Pharmaceutical Innovation with Data-Driven Excellence
+                  Transforming Biotech & Pharmaceutical Development with Real-Time AI Intelligence
                 </p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button variant="glass-primary" size="lg" className="group">
-                  Accelerate Your Success
+                  Start Free Trial
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button variant="glass-secondary" size="lg">
-                  Learn More
+                  Watch Demo
                 </Button>
               </div>
             </div>
@@ -119,13 +119,13 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="glass-brutal p-12 text-center">
             <h2 className="font-eurostile text-2xl md:text-3xl font-bold text-foreground mb-6">
-              Combining Biotechnology Excellence with Data-Driven Intelligence
+              AI-Powered Platform for Biotech Innovation
             </h2>
             <p className="font-roboto text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto">
-              BioVital stands at the intersection of cutting-edge life sciences and strategic consulting excellence. 
-              We accelerate the development and commercialization of life-changing therapies through our proprietary 
-              blend of scientific expertise, regulatory intelligence, and market access strategies. Our mission is to 
-              transform how biotech and pharmaceutical assets reach their full potential in global markets.
+              BioVital's SaaS platform leverages advanced AI and machine learning to transform biotech development. 
+              Automated regulatory tracking, predictive analytics, and real-time market intelligence empower companies 
+              to accelerate time-to-market. With intelligent workflows, continuous compliance monitoring, and data-driven 
+              insights at every stage, BioVital delivers enterprise-grade intelligence through an intuitive cloud platform.
             </p>
           </div>
         </div>
@@ -136,10 +136,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-eurostile text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Core <span className="text-neon-cyan">Capabilities</span>
+              Platform <span className="text-neon-cyan">Features</span>
             </h2>
             <p className="font-roboto text-lg text-muted-foreground">
-              Comprehensive solutions for every stage of your asset lifecycle
+              Automated intelligence across the entire development lifecycle
             </p>
           </div>
 

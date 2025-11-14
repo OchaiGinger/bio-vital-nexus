@@ -18,67 +18,67 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const Solutions = () => {
-  const consultingServices = [
+  const platformFeatures = [
     {
       icon: FlaskConical,
-      title: "Drug Development Strategy",
-      description: "End-to-end strategic guidance from preclinical through Phase III, optimizing development pathways and reducing time-to-market.",
-      features: ["Clinical Trial Design", "Endpoint Selection", "Biomarker Strategy", "Risk Mitigation"]
+      title: "Development Intelligence Module",
+      description: "AI-powered insights for drug development with automated trial design optimization and real-time risk monitoring.",
+      features: ["Predictive Trial Modeling", "Automated Endpoint Analysis", "AI Biomarker Discovery", "Risk Scoring Engine"]
     },
     {
       icon: TrendingUp,
-      title: "Asset Valuation & Due Diligence",
-      description: "Comprehensive asset assessment leveraging proprietary analytics and deep therapeutic area expertise.",
-      features: ["Market Analysis", "Competitive Intelligence", "Risk Assessment", "Value Modeling"]
+      title: "Asset Valuation Engine",
+      description: "Automated asset assessment with ML-driven market analysis and real-time competitive intelligence.",
+      features: ["Real-Time Market Data", "Automated Comp Analysis", "AI Risk Modeling", "Dynamic NPV Calculator"]
     },
     {
       icon: Shield,
-      title: "Regulatory Strategy & Compliance",
-      description: "Navigate complex regulatory landscapes with expert guidance across global markets and therapeutic areas.",
-      features: ["FDA/EMA Strategy", "Regulatory Submissions", "Compliance Frameworks", "Post-Market Surveillance"]
+      title: "Regulatory Intelligence Hub",
+      description: "Automated compliance tracking with AI-powered regulatory monitoring across global markets and therapeutic areas.",
+      features: ["Auto Submission Tracking", "Compliance Dashboard", "Regulatory Alert System", "Document Automation"]
     },
     {
       icon: Globe,
-      title: "Market Access & Commercialization",
-      description: "Optimize market entry strategies and maximize commercial potential across diverse healthcare systems.",
-      features: ["Pricing Strategy", "Market Access", "Commercial Planning", "Launch Excellence"]
+      title: "Market Access Analytics",
+      description: "Real-time market intelligence with predictive pricing models and automated commercialization planning.",
+      features: ["Pricing Optimization AI", "Market Access Scoring", "Launch Planning Tools", "Revenue Forecasting"]
     },
     {
       icon: GitBranch,
-      title: "Technology Transfer & Licensing",
-      description: "Facilitate strategic partnerships and optimize technology transfer for maximum value creation.",
-      features: ["IP Strategy", "Partnership Development", "Deal Structuring", "Technology Assessment"]
+      title: "Partnership Intelligence",
+      description: "AI-driven partnership matching and automated deal structuring for technology transfer optimization.",
+      features: ["Partner Matching AI", "Deal Flow Analytics", "Automated Term Sheets", "IP Valuation Tools"]
     },
     {
       icon: Handshake,
-      title: "Strategic Partnerships",
-      description: "Identify and structure high-value partnerships to accelerate development and market access.",
-      features: ["Partner Identification", "Deal Negotiation", "Alliance Management", "Value Creation"]
+      title: "Collaboration Platform",
+      description: "Unified workspace for cross-functional teams with real-time collaboration and automated workflow management.",
+      features: ["Team Workspaces", "Automated Workflows", "Real-Time Sync", "API Integrations"]
     }
   ];
 
   const technologyStack = [
-    { icon: Brain, title: "AI/ML Analytics", description: "Advanced algorithms for predictive modeling" },
-    { icon: Dna, title: "Genomics Platforms", description: "Next-gen sequencing and analysis tools" },
-    { icon: Settings, title: "RegTech Solutions", description: "Automated regulatory compliance tracking" },
-    { icon: BarChart3, title: "Data Analytics", description: "Real-time market intelligence dashboards" },
-    { icon: Cloud, title: "Cloud Infrastructure", description: "Scalable, secure data processing" },
-    { icon: Lock, title: "Blockchain Security", description: "Immutable audit trails and data integrity" }
+    { icon: Brain, title: "Machine Learning Core", description: "TensorFlow & PyTorch for predictive analytics" },
+    { icon: Dna, title: "Biotech Data APIs", description: "Real-time integration with clinical databases" },
+    { icon: Settings, title: "Automation Engine", description: "Workflow automation and smart triggers" },
+    { icon: BarChart3, title: "Analytics Dashboard", description: "Interactive BI with custom visualizations" },
+    { icon: Cloud, title: "AWS Infrastructure", description: "Scalable cloud with 99.99% uptime SLA" },
+    { icon: Lock, title: "Enterprise Security", description: "SOC 2 Type II, HIPAA, and GDPR compliant" }
   ];
 
   const methodology = [
-    { phase: "Assessment", description: "Comprehensive analysis of current state and opportunities" },
-    { phase: "Planning", description: "Strategic roadmap development with clear milestones" },
-    { phase: "Analysis", description: "Deep-dive evaluation using proprietary methodologies" },
-    { phase: "Implementation", description: "Execution support with continuous optimization" },
-    { phase: "Optimization", description: "Ongoing performance monitoring and refinement" }
+    { phase: "Onboarding", description: "Quick setup with guided data integration and workspace configuration" },
+    { phase: "Data Integration", description: "Automated connection to existing systems via APIs and secure imports" },
+    { phase: "AI Training", description: "Platform learns from your data to deliver customized insights" },
+    { phase: "Deployment", description: "Go live with full team access and automated workflows" },
+    { phase: "Optimization", description: "Continuous ML improvement with real-time performance monitoring" }
   ];
 
   const metrics = [
-    { number: "150+", label: "Assets Optimized", description: "Successful strategic transformations" },
-    { number: "$2.5B+", label: "Value Created", description: "In regulatory approvals facilitated" },
-    { number: "40%", label: "Faster Approvals", description: "Average reduction in regulatory timeline" },
-    { number: "98%", label: "Client Satisfaction", description: "Sustained partnership success rate" }
+    { number: "500+", label: "Active Users", description: "Biotech companies using the platform" },
+    { number: "$5B+", label: "Assets Tracked", description: "In pipeline value managed on platform" },
+    { number: "60%", label: "Time Savings", description: "Average reduction in manual processes" },
+    { number: "99.9%", label: "Uptime SLA", description: "Enterprise-grade reliability" }
   ];
 
   return (
@@ -89,15 +89,16 @@ const Solutions = () => {
         <section className="mb-20">
           <div className="text-center mb-16">
             <h1 className="font-eurostile text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Comprehensive <span className="text-neon-cyan">Solutions</span>
+              Platform <span className="text-neon-cyan">Features</span>
             </h1>
             <p className="font-roboto text-lg text-muted-foreground max-w-2xl mx-auto">
-              End-to-end consulting services designed to accelerate your asset development and maximize market success
+              Comprehensive AI-powered modules designed to automate and accelerate every stage of 
+              biotech development and commercialization
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {consultingServices.map((service, index) => (
+            {platformFeatures.map((service, index) => (
               <Card key={index} className="glass-card border border-card-border glow-hover group">
                 <CardContent className="p-6 space-y-4">
                   <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center group-hover:animate-float">
@@ -156,11 +157,11 @@ const Solutions = () => {
         {/* Methodology */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="font-eurostile text-3xl font-bold text-foreground mb-4">
-              Our <span className="text-neon-cyan">Methodology</span>
+            <h2 className="font-eurostile text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Implementation <span className="text-neon-purple">Process</span>
             </h2>
             <p className="font-roboto text-lg text-muted-foreground">
-              A proven 5-phase process for delivering transformational results
+              Five-step onboarding to get your team up and running in days
             </p>
           </div>
 
